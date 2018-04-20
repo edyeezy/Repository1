@@ -1,5 +1,5 @@
 # Welcome to my code! I only worked through the first episode of season 6
-
+#also basically you can run this by opening a terminal, and typing "python ayto2.py" and pressing enter
 
 def main():
 	#Alright so this is a python list, like an array of words. This is the girl's names in alphabetical order, only the first 3 letters
