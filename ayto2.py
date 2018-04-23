@@ -1,7 +1,6 @@
 # CH CH CH CHANGES DONT WANNA BLA BLA BLA
-# Welcome to my code! I only worked through the first episode of season 6
-#also basically you can run this by saving it in a folder, opening a terminal, going to the folder, and typing "python ayto2.py" and pressing enter
-#i forget if you do a lot with terminal/unix, just hmu
+## Welcome to my code! I only worked through the first episode of season 6
+# THis is the latest version, 248 monday
 
 def main():
 	#Alright so this is a python list, like an array of words. This is the girl's names in alphabetical order, only the first 3 letters
@@ -34,7 +33,7 @@ def main():
 		#Here is cligirl, AKA every possible Clint mate. So after antgirl starts with Ale, then this one also starts with Ale (unless Ant alread
 		# y has Ale! That is why I put "if antgirl!=cligirl" on line 35 because they can't have the same girl. how sad
 		for cligirl in alphlist: #2
-			if antgirl != cligirl: #1
+			if antgirl != cligirl and antgirl!= 'Gel': #1
 				for dimgirl in alphlist: #3
 					#so look at this one, dim, cli, and ant cannot have the same girl
 					if dimgirl!=cligirl and dimgirl!=antgirl: #2
@@ -107,7 +106,7 @@ def main():
 	print ('        ' + boylist[0] + '     ' + boylist[1] + '   ' + boylist[2] + '     ' + boylist[3] + '     ' + boylist[4] + '     ' + boylist[5] + '     ' + boylist[6] + '     ' + boylist[7] + '     ' + boylist[8] + '     ' + boylist[9] + '     ' + boylist[10] )
 	whups = 0
 	for okm in probmatrix:
-		print(alphlist[whups] + '     '  + str(100*round(okm[0]/count,3)) +  '     ' + str(100*round(okm[1]/count,3)) +  '     ' + str(100*round(okm[2]/count,3)) +  '     ' + str(100*round(okm[3]/count,3)) +  '     ' + str(100*round(okm[4]/count,3)) +  '     ' + str(100*round(okm[5]/count,3)) +  '     ' + str(100*round(okm[6]/count,3)) + '     ' +  str(100*round(okm[7]/count,3)) +  '     ' +  str(100*round(okm[8]/count,3)) +  '     ' + str(100*round(okm[9]/count,3)) +  '     ' + str(100*round(okm[10]/count,3)) )
+		print(alphlist[whups] + '     '  + str(round(100*round(okm[0]/count,3),1)) +  '     ' + str(100*round(okm[1]/count,3)) +  '     ' + str(100*round(okm[2]/count,3)) +  '     ' + str(100*round(okm[3]/count,3)) +  '     ' + str(100*round(okm[4]/count,3)) +  '     ' + str(100*round(okm[5]/count,3)) +  '     ' + str(100*round(okm[6]/count,3)) + '     ' +  str(100*round(okm[7]/count,3)) +  '     ' +  str(round(100*round(okm[8]/count,3),1)) +  '     ' + str(round(100*round(okm[9]/count,3),1)) +  '     ' + str(100*round(okm[10]/count,3)) )
 		whups+=1
 
 
