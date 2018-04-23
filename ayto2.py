@@ -1,3 +1,4 @@
+# CH CH CH CHANGES DONT WANNA BLA BLA BLA
 # Welcome to my code! I only worked through the first episode of season 6
 #also basically you can run this by saving it in a folder, opening a terminal, going to the folder, and typing "python ayto2.py" and pressing enter
 #i forget if you do a lot with terminal/unix, just hmu
